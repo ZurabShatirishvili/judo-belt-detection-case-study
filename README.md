@@ -478,9 +478,6 @@ separate test set.
 No source photographs, annotations, dataset files, trained model weights, or
 generated outputs are included in this repository.
 
-The photographs used for development depicted identifiable individuals and are
-not distributed publicly.
-
 Any future implementation involving identifiable individuals should use:
 
 - Appropriately licensed or authorized photographs
@@ -571,6 +568,3 @@ across different photographic conditions.
 This project was completed as a personal learning exercise. Generative AI tools
 were used to assist with technical planning, code organization,
 troubleshooting, and documentation drafting.
-
-The final documentation was reviewed and adapted by the author. The complete
-development conversation is not included in this repository.
