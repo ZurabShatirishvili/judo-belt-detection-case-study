@@ -124,46 +124,14 @@ through Python.
 
 ## 4. Technology Stack
 
-|
- Component 
-|
- Purpose 
-|
-|
----
-|
----
-|
-|
- Python 
-|
- Primary implementation language 
-|
-|
- Ultralytics YOLO 
-|
- Instance-segmentation training and inference 
-|
-|
- PyTorch 
-|
- Underlying machine-learning framework 
-|
-|
- OpenCV 
-|
- Image loading, mask creation, and pixel recoloring 
-|
-|
- NumPy 
-|
- Numerical image and mask operations 
-|
-|
- CVAT 
-|
- Manual polygon annotation and dataset export 
-|
+| Component | Purpose |
+|---|---|
+| Python | Primary implementation language |
+| Ultralytics YOLO | Instance-segmentation training and inference |
+| PyTorch | Underlying machine-learning framework |
+| OpenCV | Image loading, mask creation, and pixel recoloring |
+| NumPy | Numerical image and mask operations |
+| CVAT | Manual polygon annotation and dataset export |
 
 The exact package versions used during development are not specified in this
 case study.
@@ -228,35 +196,11 @@ The dataset was assembled incrementally:
 
 An approximate 80/20 split was used:
 
-|
- Subset 
-|
- Image count 
-|
-|
----
-|
----:
-|
-|
- Training 
-|
- 88 
-|
-|
- Validation 
-|
- 22 
-|
-|
-**
-Total
-**
-|
-**
-110
-**
-|
+| Subset | Image count |
+|---|---:|
+| Training | 88 |
+| Validation | 22 |
+| **Total** | **110** |
 
 The training subset was used for model parameter updates.
 
